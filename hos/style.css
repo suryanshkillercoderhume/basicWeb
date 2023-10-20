@@ -1,0 +1,255 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #FF5722; /* Change to your preferred hover color */
+}
+
+.hero {
+    text-align: center;
+    padding: 40px;
+    background-color: hsl(110, 71%, 85%);
+}
+
+.hero img {
+    max-width: 100%;
+}
+
+/* Add more CSS styles for other sections */
+
+.cta-button {
+    background-color: #FF5722;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #E64A19; /* Change to your preferred hover color */
+}
+
+
+/* Add more CSS styles for other elements */
+
+/* Responsive Design: Media Queries */
+
+@media (max-width: 768px) {
+    /* Define responsive styles here */
+}
+.features {
+    background-color: hsl(216, 98%, 79%);
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.features1 {
+    background-color: hsl(216, 98%, 79%);
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feature {
+    text-align: center;
+    max-width: 250px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+.feature img {
+    width: 80px;
+    height: 80px;
+}
+
+.feature h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #777;
+}
+/* Updated CSS for the Hostel Showcase Section */
+
+/* Updated CSS for the Hostel Showcase Section */
+
+.hostels {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.hostel {
+    text-align: center;
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #E5F0FF; /* A light blue background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; /* Rounded corners for a different feel */
+    transition: transform 0.2s;
+}
+
+.hostel:hover {
+    transform: scale(1.20);
+}
+
+.hostel img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.hostel h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333; /* Text color for hostel names */
+}
+
+.hostel p {
+    font-size: 14px;
+    color: #555; /* A slightly different text color */
+}
+
+.hostel a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #FF5722;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hostel a:hover {
+    background-color: #E64A19; /* Change to your preferred hover color */
+}
+
+/* Your existing CSS styles */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    flex: 1;
+    text-align: left;
+    margin: 0 20px;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #FF5722;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #222;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Your existing CSS styles */
+
+.slideshow {
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 20px 0;
+}
+
+.slideshow-container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 100%;
+}
+
+/* Add more specific styles as needed for your slideshow. */
